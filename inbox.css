@@ -1,0 +1,42 @@
+/* blue app bar */
+.qp {
+	background: #4285f4
+}
+
+/* white search text */
+.gb_Ve.gb_2e .gb_Ie {
+	color: white;
+}
+
+.gb_ne.gb_oe .gb_Ie {
+    color: black;
+}
+
+.gb_Ve.gb_2e .gb_Ie::placeholder {
+	color: #ddd;
+}
+
+/* white icons */
+.gb_ja svg, .gb_4b svg {
+	color: white;
+	opacity: .84;
+}
+
+/* bg color */
+.brC-aT5-aOt-Jw, .aeH {
+	background-color: #f2f2f2;
+}
+
+.aeJ, .nH.bKK.nn {
+	background: #f2f2f2;
+}
+
+.Ls77Lb.aZ6, .aeO, .aND.pp.aj3 {
+	border-right: solid 2px #f2f2f2;
+}
+
+/* Archive -> Done icon */
+
+.brq, .ar8 {
+	background-image: url('https://www.gstatic.com/images/icons/material/system/1x/check_black_20dp.png');
+}

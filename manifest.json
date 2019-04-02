@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Inboxify",
+  "version": "1.0",
+
+  "description": "Make the new Gmail feel like Inbox.",
+
+  "icons": {
+    "48": "inbox.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/*"],
+      "js": ["inbox.js"],
+      "css": ["inbox.css"]
+    }
+  ]
+
+}
